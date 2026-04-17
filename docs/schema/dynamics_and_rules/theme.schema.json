@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Theme Schema",
+  "description": "Conceptual anchors and overarching ideas for the story.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "description": "The name of the theme (e.g., 'debt as moral corrosion')."
+    },
+    "description": {
+      "type": "string"
+    },
+    "related_entities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "IDs of characters, factions, or systems most strongly tied to this theme."
+    }
+  },
+  "required": [
+    "id",
+    "name"
+  ]
+}

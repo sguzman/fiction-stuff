@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Event Schema",
-  "description": "Shocks to the system, historical or current.",
+  "description": "Historical shocks or plot-initiating incidents.",
   "type": "object",
   "properties": {
     "id": {
@@ -11,7 +11,8 @@
       "type": "string"
     },
     "date": {
-      "type": "string"
+      "type": "string",
+      "description": "When the event occurred in the world's timeline."
     },
     "description": {
       "type": "string"
@@ -20,11 +21,24 @@
       "type": "array",
       "items": {
         "type": "string"
-      }
+      },
+      "description": "IDs of regions, characters, or factions affected."
+    },
+    "is_historical": {
+      "type": "boolean",
+      "description": "True if it is backstory, False if it happens actively during the narrative."
+    },
+    "consequences": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of direct outcomes resulting from this event (e.g., 'Grain price doubled')."
     }
   },
   "required": [
     "id",
-    "name"
+    "name",
+    "date"
   ]
 }

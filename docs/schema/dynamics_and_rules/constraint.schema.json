@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Constraint Schema",
+  "description": "Hard rules or temporary limitations in the world or story.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "global",
+        "regional",
+        "character",
+        "faction"
+      ]
+    },
+    "target_id": {
+      "type": "string",
+      "description": "ID of the specific region, character, or faction if scope is not global."
+    },
+    "rule": {
+      "type": "string",
+      "description": "The constraint itself (e.g., 'magic cannot create calories')."
+    },
+    "reason": {
+      "type": "string",
+      "description": "Why this constraint exists (e.g., 'broken rib', 'laws of physics')."
+    },
+    "is_temporary": {
+      "type": "boolean",
+      "description": "Whether this constraint can be lifted or resolved during the story."
+    }
+  },
+  "required": [
+    "id",
+    "scope",
+    "rule"
+  ]
+}

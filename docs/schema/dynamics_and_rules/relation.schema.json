@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Relation Schema",
+  "description": "Directed links defining how entities interact or feel about each other.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string",
+      "description": "The entity originating the relation."
+    },
+    "target_id": {
+      "type": "string",
+      "description": "The entity receiving the relation."
+    },
+    "relation_type": {
+      "type": "string",
+      "enum": [
+        "loyalty",
+        "debt",
+        "enmity",
+        "romance",
+        "authority",
+        "dependency",
+        "kinship",
+        "other"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "description": "Specific details (e.g., 'owes 500 silver for a gambling debt')."
+    },
+    "intensity": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 10,
+      "description": "How strong or pressing the relation is."
+    },
+    "is_public": {
+      "type": "boolean",
+      "description": "Whether this relation is known to others or is a secret."
+    }
+  },
+  "required": [
+    "id",
+    "source_id",
+    "target_id",
+    "relation_type"
+  ]
+}
