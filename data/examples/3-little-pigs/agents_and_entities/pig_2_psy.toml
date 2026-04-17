@@ -1,0 +1,37 @@
+character_id = "pig_2"
+
+[big_five]
+neuroticism = 50
+extraversion = 60
+openness = 50
+agreeableness = 70
+conscientiousness = 20
+
+[facets]
+compassion = 70
+irritability = 40
+sociability = 70
+well_being = 60
+sensation_seeking = 50
+anxiety = 30
+honesty = 70
+industry = 20
+intellect = 30
+creativity = 40
+impulsivity = 70
+attention_seeking = 40
+order = 20
+authoritarianism = 20
+charisma = 50
+trust = 80
+humor = 70
+emotional_expressiveness = 60
+art_appreciation = 20
+introspection = 20
+perfectionism = 10
+self_control = 20
+conformity = 60
+adaptability = 60
+easy_goingness = 80
+emotional_stability = 50
+conservatism = 50

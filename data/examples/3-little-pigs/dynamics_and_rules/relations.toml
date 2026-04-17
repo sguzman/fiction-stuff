@@ -1,0 +1,17 @@
+[[relations]]
+id = "rel_pig_siblings"
+source_id = "pig_1"
+target_id = "pig_2"
+relation_type = "kinship"
+description = "Siblings"
+intensity = 8
+is_public = true
+
+[[relations]]
+id = "rel_wolf_enmity"
+source_id = "wolf"
+target_id = "pig_3"
+relation_type = "enmity"
+description = "Wolf wants to eat the pig."
+intensity = 10
+is_public = true

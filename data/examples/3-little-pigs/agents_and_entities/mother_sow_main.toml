@@ -1,0 +1,7 @@
+id = "mother_sow"
+name = "Old Sow"
+aliases = ["Mother"]
+birth_year = -5
+
+[components]
+physical = "mother_sow_phys.toml"

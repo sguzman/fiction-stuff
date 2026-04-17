@@ -1,0 +1,34 @@
+[[locations]]
+id = "sow_house"
+name = "The Old Sow's House"
+type = "landmark"
+
+[[locations]]
+id = "straw_house"
+name = "House of Straw"
+type = "landmark"
+
+[[locations]]
+id = "furze_house"
+name = "House of Furze"
+type = "landmark"
+
+[[locations]]
+id = "brick_house"
+name = "House of Bricks"
+type = "landmark"
+
+[[locations]]
+id = "smith_home_field"
+name = "Mr. Smith's Home-field"
+type = "landmark"
+
+[[locations]]
+id = "merry_garden"
+name = "Merry-garden"
+type = "landmark"
+
+[[locations]]
+id = "shanklin"
+name = "Shanklin Fair"
+type = "city"

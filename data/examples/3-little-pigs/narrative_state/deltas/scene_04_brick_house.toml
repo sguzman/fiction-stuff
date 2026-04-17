@@ -1,0 +1,22 @@
+scene_id = "scene_04_brick_house"
+from_checkpoint = "03_after_furze_house"
+to_checkpoint = "04_after_brick_house"
+purpose = ["demonstrate brick invulnerability", "shift wolf strategy from brute force to trickery"]
+
+[[changes]]
+entity = "world.brick_house_status"
+old_value = "intact"
+new_value = "intact"
+cause = "Wolf could not blow it down due to brick_invulnerability constraint"
+
+[[changes]]
+entity = "characters.wolf.fatigue"
+old_value = 10
+new_value = 40
+cause = "Huffing and puffing repeatedly and failing"
+
+[[changes]]
+entity = "characters.wolf.morale"
+old_value = 20
+new_value = 5
+cause = "Frustration at failing to blow down the house"

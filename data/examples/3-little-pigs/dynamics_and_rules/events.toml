@@ -1,0 +1,7 @@
+id = "plot_kickoff"
+name = "Leaving the Sow"
+date = "Once Upon a Time, Day 1"
+description = "The old sow sends the three little pigs out to seek their fortune because she cannot feed them."
+impacted_entities = ["pig_1", "pig_2", "pig_3", "mother_sow"]
+is_historical = false
+consequences = ["Pigs are now independent agents in the world without resources."]

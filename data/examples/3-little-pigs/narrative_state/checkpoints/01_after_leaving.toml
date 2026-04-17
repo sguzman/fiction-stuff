@@ -1,0 +1,33 @@
+id = "01_after_leaving"
+narrative_time = "Once Upon a Time, Day 1, Afternoon"
+
+[world]
+wolf_hunger = 100
+
+[characters.pig_1]
+location = "straw_house"
+hp = 10
+gold = 0
+fatigue = 5
+morale = 10
+
+[characters.pig_2]
+location = "furze_house"
+hp = 10
+gold = 0
+fatigue = 5
+morale = 10
+
+[characters.pig_3]
+location = "brick_house"
+hp = 10
+gold = 0
+fatigue = 5
+morale = 10
+
+[characters.wolf]
+location = "straw_house"
+hp = 50
+gold = 0
+fatigue = 0
+morale = 10
