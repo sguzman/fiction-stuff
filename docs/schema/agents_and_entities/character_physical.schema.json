@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Character Physical Schema",
+  "description": "Physical attributes of a character.",
+  "type": "object",
+  "properties": {
+    "character_id": {
+      "type": "string",
+      "description": "ID of the character this physical profile belongs to."
+    },
+    "gender": {
+      "type": "string"
+    },
+    "height_cm": {
+      "type": "number"
+    },
+    "build": {
+      "type": "string"
+    },
+    "hair_color": {
+      "type": "string"
+    },
+    "eye_color": {
+      "type": "string"
+    },
+    "distinct_markings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "chronic_conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "character_id"
+  ]
+}

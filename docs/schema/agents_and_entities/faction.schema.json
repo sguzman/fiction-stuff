@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Faction Schema",
+  "description": "Schema for organizations, churches, businesses, and armies.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "state",
+        "church",
+        "business",
+        "military",
+        "guild",
+        "household",
+        "other"
+      ]
+    },
+    "leadership": {
+      "type": "object",
+      "properties": {
+        "leader_id": {
+          "type": "string",
+          "description": "Character ID of the leader."
+        },
+        "structure": {
+          "type": "string"
+        }
+      }
+    },
+    "resources": {
+      "type": "object",
+      "properties": {
+        "wealth": {
+          "type": "string"
+        },
+        "manpower": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "type"
+  ]
+}

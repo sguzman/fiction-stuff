@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Scene Delta Schema",
+  "description": "Changes that occurred during a scene.",
+  "type": "object",
+  "properties": {
+    "scene_id": {
+      "type": "string"
+    },
+    "from_checkpoint": {
+      "type": "string"
+    },
+    "to_checkpoint": {
+      "type": "string"
+    },
+    "changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "entity": {
+            "type": "string"
+          },
+          "field": {
+            "type": "string"
+          },
+          "old_value": {},
+          "new_value": {},
+          "cause": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "entity",
+          "field",
+          "new_value"
+        ]
+      }
+    }
+  },
+  "required": [
+    "scene_id",
+    "changes"
+  ]
+}

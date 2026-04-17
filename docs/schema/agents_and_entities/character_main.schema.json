@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Character Main Schema",
+  "description": "Main manifest for a character identity.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the character (e.g., mara_vale)."
+    },
+    "name": {
+      "type": "string",
+      "description": "Full name of the character."
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Other names or titles."
+    },
+    "birth_year": {
+      "type": "integer"
+    },
+    "components": {
+      "type": "object",
+      "description": "References to other TOML files for this character.",
+      "properties": {
+        "physical": {
+          "type": "string",
+          "pattern": "\\.toml$"
+        },
+        "psychology": {
+          "type": "string",
+          "pattern": "\\.toml$"
+        },
+        "history": {
+          "type": "string",
+          "pattern": "\\.toml$"
+        }
+      },
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "\\.toml$"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "components"
+  ]
+}

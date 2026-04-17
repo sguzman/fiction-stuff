@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Background Schema",
+  "description": "Deep world truths (cosmology, metaphysics, magic existence).",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "cosmology": {
+      "type": "string"
+    },
+    "magic_exists": {
+      "type": "boolean"
+    },
+    "history_summary": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id"
+  ]
+}

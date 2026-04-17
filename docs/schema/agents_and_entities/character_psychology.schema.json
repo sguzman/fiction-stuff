@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Character Psychology Schema",
+  "description": "Psychological profile based on Big 5 and facets.",
+  "type": "object",
+  "properties": {
+    "character_id": {
+      "type": "string",
+      "description": "ID of the character this profile belongs to."
+    },
+    "big_five": {
+      "type": "object",
+      "properties": {
+        "neuroticism": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "extraversion": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "openness": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "agreeableness": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "conscientiousness": { "type": "integer", "minimum": 0, "maximum": 100 }
+      },
+      "required": ["neuroticism", "extraversion", "openness", "agreeableness", "conscientiousness"]
+    },
+    "facets": {
+      "type": "object",
+      "properties": {
+        "compassion": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "irritability": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "sociability": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "well_being": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "sensation_seeking": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "anxiety": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "honesty": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "industry": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "intellect": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "creativity": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "impulsivity": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "attention_seeking": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "order": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "authoritarianism": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "charisma": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "trust": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "humor": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "emotional_expressiveness": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "art_appreciation": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "introspection": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "perfectionism": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "self_control": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "conformity": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "adaptability": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "easy_goingness": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "emotional_stability": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "conservatism": { "type": "integer", "minimum": 0, "maximum": 100 }
+      }
+    }
+  },
+  "required": [
+    "character_id",
+    "big_five",
+    "facets"
+  ]
+}
