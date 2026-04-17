@@ -1,0 +1,5 @@
+id = "brick_invulnerability"
+scope = "global"
+rule = "Brick structures cannot be destroyed by huffing and puffing."
+reason = "Laws of physics in this setting."
+is_temporary = false

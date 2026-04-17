@@ -1,0 +1,22 @@
+id = "00_start"
+narrative_time = "Once Upon a Time, Day 1, Morning"
+
+[world]
+wolf_hunger = 100
+
+[characters.pig_1]
+location = "crossroads"
+hp = 10
+gold = 0
+fatigue = 0
+morale = 10
+
+[characters.pig_1.knowledge]
+knows_wolf_exists = false
+
+[characters.wolf]
+location = "woods"
+hp = 50
+gold = 0
+fatigue = 0
+morale = 10

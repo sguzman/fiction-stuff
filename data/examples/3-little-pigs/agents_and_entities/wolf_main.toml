@@ -1,0 +1,8 @@
+id = "wolf"
+name = "The Big Bad Wolf"
+aliases = ["Huff-and-Puff"]
+birth_year = -10
+
+[components]
+physical = "wolf_phys.toml"
+psychology = "wolf_psy.toml"

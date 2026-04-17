@@ -1,0 +1,8 @@
+character_id = "wolf"
+gender = "male"
+height_cm = 180
+build = "muscular"
+hair_color = "grey"
+eye_color = "yellow"
+distinct_markings = ["sharp teeth", "large lungs"]
+chronic_conditions = ["insatiable hunger"]

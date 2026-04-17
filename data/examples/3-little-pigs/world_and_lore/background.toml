@@ -1,0 +1,14 @@
+id = "world_background"
+cosmology = "Fable Universe"
+metaphysics = "Animals have anthropomorphic traits, human-level intelligence, and engage in commerce."
+technological_level = "Pre-industrial agrarian."
+
+[magic_ontology]
+exists = true
+source = "Narrative necessity"
+limitations = ["Cannot create matter, mostly limited to impossible physical feats (like speaking pigs or blowing down houses)."]
+
+[calendar_and_timekeeping]
+days_in_year = 365
+months = ["Spring", "Summer", "Autumn", "Winter"]
+eras = ["Once Upon A Time"]

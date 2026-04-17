@@ -1,0 +1,22 @@
+scene_id = "scene_02_straw_house"
+from_checkpoint = "01_after_leaving"
+to_checkpoint = "02_after_straw_house"
+purpose = ["demonstrate wolf threat", "eliminate pig 1"]
+
+[[changes]]
+entity = "characters.pig_1.hp"
+old_value = 10
+new_value = 0
+cause = "Eaten by wolf after house blew down"
+
+[[changes]]
+entity = "world.straw_house_status"
+old_value = "intact"
+new_value = "destroyed"
+cause = "Blown down by wolf"
+
+[[changes]]
+entity = "characters.wolf.hp"
+old_value = 50
+new_value = 60
+cause = "Ate pig 1"

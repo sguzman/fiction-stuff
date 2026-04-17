@@ -1,0 +1,11 @@
+id = "building_physics"
+category = "logistics"
+description = "Determines the structural integrity of a building material against lateral wind force (Wolf's breath)."
+
+[variables]
+straw_resistance = 10
+furze_resistance = 30
+brick_resistance = 1000
+wolf_breath_force = 100
+
+bottlenecks = ["Wolf breath force exceeds straw and furze, but cannot exceed brick."]

@@ -1,0 +1,8 @@
+id = "pig_1"
+name = "First Little Pig"
+aliases = ["Straw Builder"]
+birth_year = 0
+
+[components]
+physical = "pig_1_phys.toml"
+psychology = "pig_1_psy.toml"
