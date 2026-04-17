@@ -1,20 +1,40 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Background Schema",
-  "description": "Deep world truths (cosmology, metaphysics, magic existence).",
+  "description": "Deep world truths (cosmology, metaphysics, history, and physical laws).",
   "type": "object",
   "properties": {
     "id": {
-      "type": "string"
+      "type": "string",
+      "description": "Unique identifier for this background component."
     },
     "cosmology": {
-      "type": "string"
+      "type": "string",
+      "description": "How the universe is structured."
     },
-    "magic_exists": {
-      "type": "boolean"
+    "metaphysics": {
+      "type": "string",
+      "description": "The fundamental nature of reality in this setting."
     },
-    "history_summary": {
-      "type": "string"
+    "magic_ontology": {
+      "type": "object",
+      "properties": {
+        "exists": { "type": "boolean" },
+        "source": { "type": "string" },
+        "limitations": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "technological_level": {
+      "type": "string",
+      "description": "Broad description of the technological era or capabilities."
+    },
+    "calendar_and_timekeeping": {
+      "type": "object",
+      "properties": {
+        "days_in_year": { "type": "integer" },
+        "months": { "type": "array", "items": { "type": "string" } },
+        "eras": { "type": "array", "items": { "type": "string" } }
+      }
     }
   },
   "required": [

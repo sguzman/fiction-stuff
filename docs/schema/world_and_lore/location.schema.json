@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Location Schema",
+  "description": "Regions, nations, cities, and landmarks with their geopolitical stats.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "continent",
+        "nation",
+        "region",
+        "city",
+        "district",
+        "landmark"
+      ]
+    },
+    "government": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "succession": {
+          "type": "string"
+        },
+        "centralization": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "environment": {
+      "type": "object",
+      "properties": {
+        "biome": {
+          "type": "string"
+        },
+        "rainfall": {
+          "type": "string"
+        },
+        "river_dependence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "stability": {
+      "type": "object",
+      "properties": {
+        "famine_risk": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "revolt_risk": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "elite_fragmentation": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "type"
+  ]
+}

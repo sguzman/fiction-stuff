@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Culture Schema",
+  "description": "Peoples, religion, language families, and legal traditions.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "language_family": {
+      "type": "string"
+    },
+    "religion": {
+      "type": "object",
+      "properties": {
+        "dominant_belief": {
+          "type": "string"
+        },
+        "pluralism": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "0.0 is entirely homogenous, 1.0 is extremely diverse."
+        }
+      }
+    },
+    "legal_traditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "taboos": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "name"
+  ]
+}

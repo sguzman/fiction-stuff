@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Technical System Schema",
+  "description": "Economics, trade, demographics, hydrology, taxation, and logistics.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "agriculture",
+        "economy",
+        "logistics",
+        "ecology",
+        "class_structure",
+        "military",
+        "other"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "description": "A prose description of how this system functions."
+    },
+    "variables": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number"
+      },
+      "description": "Numeric variables governing the system (e.g., inflation_rate, harvest_yield)."
+    },
+    "bottlenecks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Points of friction or vulnerability in this system (e.g., 'river shipping stops during late dry season')."
+    }
+  },
+  "required": [
+    "id",
+    "category"
+  ]
+}
