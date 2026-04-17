@@ -1,0 +1,7 @@
+id = "rel_pig_siblings"
+source_id = "pig_1"
+target_id = "pig_2"
+relation_type = "kinship"
+description = "Siblings"
+intensity = 8
+is_public = true

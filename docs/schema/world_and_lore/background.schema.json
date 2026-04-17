@@ -13,8 +13,9 @@
       "description": "How the universe is structured."
     },
     "metaphysics": {
-      "type": "string",
-      "description": "The fundamental nature of reality in this setting."
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "The fundamental nature and laws of reality in this setting."
     },
     "magic_ontology": {
       "type": "object",

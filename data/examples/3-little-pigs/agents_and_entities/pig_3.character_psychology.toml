@@ -1,0 +1,12 @@
+character_id = "pig_3"
+
+[big_five]
+conscientiousness = 95
+openness = 70
+
+[facets]
+industry = 95
+intellect = 90
+creativity = 85
+order = 95
+self_control = 95

@@ -1,0 +1,8 @@
+id = "pig_3"
+name = "Third Little Pig"
+aliases = ["Brick Builder"]
+birth_year = 0
+
+[components]
+physical = "pig_3.character_physical.toml"
+psychology = "pig_3.character_psychology.toml"

@@ -1,0 +1,14 @@
+character_id = "wolf"
+
+[big_five]
+neuroticism = 70
+extraversion = 80
+agreeableness = 10
+conscientiousness = 40
+
+[facets]
+compassion = 0
+irritability = 90
+sensation_seeking = 95
+impulsivity = 80
+attention_seeking = 70

@@ -4,5 +4,5 @@ aliases = ["Furze Builder"]
 birth_year = 0
 
 [components]
-physical = "pig_2_phys.toml"
-psychology = "pig_2_psy.toml"
+physical = "pig_2.character_physical.toml"
+psychology = "pig_2.character_psychology.toml"

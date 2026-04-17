@@ -16,8 +16,7 @@
         "openness": { "type": "integer", "minimum": 0, "maximum": 100 },
         "agreeableness": { "type": "integer", "minimum": 0, "maximum": 100 },
         "conscientiousness": { "type": "integer", "minimum": 0, "maximum": 100 }
-      },
-      "required": ["neuroticism", "extraversion", "openness", "agreeableness", "conscientiousness"]
+      }
     },
     "facets": {
       "type": "object",
@@ -53,8 +52,6 @@
     }
   },
   "required": [
-    "character_id",
-    "big_five",
-    "facets"
+    "character_id"
   ]
 }

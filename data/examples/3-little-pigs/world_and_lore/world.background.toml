@@ -1,6 +1,10 @@
 id = "world_background"
 cosmology = "Fable Universe"
-metaphysics = "Animals have anthropomorphic traits, human-level intelligence, and engage in commerce."
+metaphysics = [
+  "Animals have anthropomorphic traits",
+  "Human-level intelligence",
+  "Engage in commerce and trade"
+]
 technological_level = "Pre-industrial agrarian."
 
 [magic_ontology]

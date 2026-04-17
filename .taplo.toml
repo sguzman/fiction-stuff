@@ -1,0 +1,59 @@
+[[rule]]
+include = ["**/*.character_main.toml"]
+schema = { path = "docs/schema/agents_and_entities/character_main.schema.json" }
+
+[[rule]]
+include = ["**/*.character_physical.toml"]
+schema = { path = "docs/schema/agents_and_entities/character_physical.schema.json" }
+
+[[rule]]
+include = ["**/*.character_psychology.toml"]
+schema = { path = "docs/schema/agents_and_entities/character_psychology.schema.json" }
+
+[[rule]]
+include = ["**/*.faction.toml"]
+schema = { path = "docs/schema/agents_and_entities/faction.schema.json" }
+
+[[rule]]
+include = ["**/*.background.toml"]
+schema = { path = "docs/schema/world_and_lore/background.schema.json" }
+
+[[rule]]
+include = ["**/*.culture.toml"]
+schema = { path = "docs/schema/world_and_lore/culture.schema.json" }
+
+[[rule]]
+include = ["**/*.location.toml"]
+schema = { path = "docs/schema/world_and_lore/location.schema.json" }
+
+[[rule]]
+include = ["**/*.system.toml"]
+schema = { path = "docs/schema/world_and_lore/system.schema.json" }
+
+[[rule]]
+include = ["**/*.constraint.toml"]
+schema = { path = "docs/schema/dynamics_and_rules/constraint.schema.json" }
+
+[[rule]]
+include = ["**/*.event.toml"]
+schema = { path = "docs/schema/dynamics_and_rules/event.schema.json" }
+
+[[rule]]
+include = ["**/*.relation.toml"]
+schema = { path = "docs/schema/dynamics_and_rules/relation.schema.json" }
+
+[[rule]]
+include = ["**/*.theme.toml"]
+schema = { path = "docs/schema/dynamics_and_rules/theme.schema.json" }
+
+[[rule]]
+include = ["**/*.setting.toml"]
+schema = { path = "docs/schema/narrative_state/setting.schema.json" }
+
+[[rule]]
+include = ["**/*.checkpoint.toml"]
+schema = { path = "docs/schema/narrative_state/checkpoint.schema.json" }
+
+[[rule]]
+include = ["**/*.scene_delta.toml"]
+schema = { path = "docs/schema/narrative_state/scene_delta.schema.json" }

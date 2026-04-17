@@ -1,0 +1,7 @@
+id = "rel_wolf_enmity"
+source_id = "wolf"
+target_id = "pig_3"
+relation_type = "enmity"
+description = "Wolf wants to eat the pig."
+intensity = 10
+is_public = true

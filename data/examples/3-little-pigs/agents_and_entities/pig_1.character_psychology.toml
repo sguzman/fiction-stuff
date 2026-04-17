@@ -1,0 +1,11 @@
+character_id = "pig_1"
+
+[big_five]
+conscientiousness = 10
+impulsivity = 90
+easy_goingness = 90
+
+[facets]
+industry = 10
+order = 10
+self_control = 10

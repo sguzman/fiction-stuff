@@ -1,0 +1,9 @@
+character_id = "pig_2"
+
+[big_five]
+conscientiousness = 20
+
+[facets]
+industry = 20
+order = 20
+self_control = 20

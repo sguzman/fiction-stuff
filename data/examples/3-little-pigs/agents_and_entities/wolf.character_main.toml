@@ -4,5 +4,5 @@ aliases = ["Huff-and-Puff"]
 birth_year = -10
 
 [components]
-physical = "wolf_phys.toml"
-psychology = "wolf_psy.toml"
+physical = "wolf.character_physical.toml"
+psychology = "wolf.character_psychology.toml"

@@ -59,7 +59,7 @@
     "world": {
       "type": "object",
       "additionalProperties": {
-        "type": "number"
+        "type": ["number", "string", "boolean"]
       },
       "description": "Global or regional dynamic variables (e.g., rainfall, grain_price_index, public_morale)."
     }
