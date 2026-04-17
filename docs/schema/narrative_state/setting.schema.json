@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Setting Schema",
+  "description": "The specific, instantiated place and time where a slice of the story occurs.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "location_ref": {
+      "type": "string",
+      "description": "ID of the broader Location from the World & Lore bucket."
+    },
+    "time_period": {
+      "type": "string",
+      "description": "When this setting takes place (e.g., 'Late 4th Era', 'Winter of 1042')."
+    },
+    "climate_and_season": {
+      "type": "string"
+    },
+    "local_political_tensions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Immediate issues dominating the local environment."
+    },
+    "active_conflicts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "immediate_material_conditions": {
+      "type": "string",
+      "description": "e.g., 'Grain stores are low in this specific district due to the siege.'"
+    }
+  },
+  "required": [
+    "id",
+    "location_ref"
+  ]
+}

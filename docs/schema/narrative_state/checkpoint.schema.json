@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Checkpoint Schema",
+  "description": "A snapshot of the dynamic state of the world and characters at a specific narrative moment.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "e.g., 'after_ambush_scene_004'"
+    },
+    "narrative_time": {
+      "type": "string",
+      "description": "e.g., 'Year 12, Late Autumn, Morning'"
+    },
+    "characters": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "description": "Dynamic state for a specific character.",
+        "properties": {
+          "location": {
+            "type": "string"
+          },
+          "hp": {
+            "type": "integer"
+          },
+          "fatigue": {
+            "type": "integer"
+          },
+          "morale": {
+            "type": "integer"
+          },
+          "gold": {
+            "type": "number"
+          },
+          "knowledge": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "boolean"
+            },
+            "description": "Information the character currently possesses."
+          },
+          "emotional_state": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer"
+            },
+            "description": "Current emotional intensity metrics."
+          },
+          "injuries": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "world": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number"
+      },
+      "description": "Global or regional dynamic variables (e.g., rainfall, grain_price_index, public_morale)."
+    }
+  },
+  "required": [
+    "id",
+    "characters"
+  ]
+}
