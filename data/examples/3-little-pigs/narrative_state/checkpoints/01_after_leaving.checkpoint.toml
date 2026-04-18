@@ -6,6 +6,8 @@ wolf_hunger = 100
 
 [characters.pig_1]
 location = "straw_house"
+is_alive = true
+[characters.pig_1.dynamic_attributes]
 hp = 10
 gold = 0
 fatigue = 5
@@ -13,6 +15,8 @@ morale = 10
 
 [characters.pig_2]
 location = "furze_house"
+is_alive = true
+[characters.pig_2.dynamic_attributes]
 hp = 10
 gold = 0
 fatigue = 5
@@ -20,6 +24,8 @@ morale = 10
 
 [characters.pig_3]
 location = "brick_house"
+is_alive = true
+[characters.pig_3.dynamic_attributes]
 hp = 10
 gold = 0
 fatigue = 5
@@ -27,6 +33,8 @@ morale = 10
 
 [characters.wolf]
 location = "straw_house"
+is_alive = true
+[characters.wolf.dynamic_attributes]
 hp = 50
 gold = 0
 fatigue = 0

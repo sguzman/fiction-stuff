@@ -1,22 +1,30 @@
 scene_id = "scene_08_chimney"
 from_checkpoint = "07_after_fair"
 to_checkpoint = "08_end"
+
+[authorial_metadata]
 purpose = ["climax", "eliminate wolf"]
 
-[[changes]]
+[[diegetic_changes]]
 entity = "characters.wolf.location"
 old_value = "chimney"
 new_value = "boiling_pot"
 cause = "Pig 3 took off the pot cover"
 
-[[changes]]
-entity = "characters.wolf.hp"
+[[diegetic_changes]]
+entity = "characters.wolf.dynamic_attributes.hp"
 old_value = 50
 new_value = 0
 cause = "Boiled alive"
 
-[[changes]]
-entity = "characters.pig_3.morale"
+[[diegetic_changes]]
+entity = "characters.wolf.is_alive"
+old_value = true
+new_value = false
+cause = "Boiled alive"
+
+[[diegetic_changes]]
+entity = "characters.pig_3.dynamic_attributes.morale"
 old_value = 8
 new_value = 20
 cause = "Survived and ate the wolf"

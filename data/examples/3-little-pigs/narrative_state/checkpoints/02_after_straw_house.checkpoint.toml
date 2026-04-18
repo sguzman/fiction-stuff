@@ -7,18 +7,26 @@ straw_house_status = "destroyed"
 
 [characters.pig_1]
 location = "wolf_stomach"
+is_alive = false
+[characters.pig_1.dynamic_attributes]
 hp = 0
 
 [characters.pig_2]
 location = "furze_house"
+is_alive = true
+[characters.pig_2.dynamic_attributes]
 hp = 10
 
 [characters.pig_3]
 location = "brick_house"
+is_alive = true
+[characters.pig_3.dynamic_attributes]
 hp = 10
 
 [characters.wolf]
 location = "furze_house"
+is_alive = true
+[characters.wolf.dynamic_attributes]
 hp = 60
 fatigue = 5
 morale = 15
