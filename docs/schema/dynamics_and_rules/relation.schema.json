@@ -12,8 +12,11 @@
       "description": "The entity originating the relation."
     },
     "target_id": {
-      "type": "string",
-      "description": "The entity receiving the relation."
+      "anyOf": [
+        { "type": "string" },
+        { "type": "array", "items": { "type": "string" } }
+      ],
+      "description": "The entity or entities receiving the relation."
     },
     "relation_type": {
       "type": "string",

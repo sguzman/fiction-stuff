@@ -15,27 +15,32 @@
       "type": "string",
       "description": "The state of the world after the scene is resolved."
     },
-    "purpose": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "description": "Narrative intent of the scene (e.g., 'injure mara', 'reveal traitor exists'). Helps avoid flabby scenes."
+    "authorial_metadata": {
+      "type": "object",
+      "properties": {
+        "purpose": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Narrative intent of the scene (e.g., 'injure mara', 'reveal traitor exists')."
+        },
+        "pacing": { "type": "string" },
+        "themes_highlighted": { "type": "array", "items": { "type": "string" } }
+      }
     },
-    "changes": {
+    "diegetic_changes": {
       "type": "array",
       "items": {
         "type": "object",
         "properties": {
           "entity": {
             "type": "string",
-            "description": "e.g., 'characters.mara.hp' or 'world.road_safety'"
+            "description": "e.g., 'characters.mara.dynamic_attributes.hp' or 'world.road_safety'"
           },
           "old_value": {},
           "new_value": {},
           "cause": {
             "type": "string",
-            "description": "Narrative reason for the change (e.g., 'knife wound during ambush')."
+            "description": "In-world reason for the change (e.g., 'knife wound during ambush')."
           }
         },
         "required": [
@@ -49,7 +54,6 @@
     "scene_id",
     "from_checkpoint",
     "to_checkpoint",
-    "purpose",
-    "changes"
+    "diegetic_changes"
   ]
 }

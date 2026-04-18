@@ -57,3 +57,7 @@ schema = { path = "docs/schema/narrative_state/checkpoint.schema.json" }
 [[rule]]
 include = ["**/*.scene_delta.toml"]
 schema = { path = "docs/schema/narrative_state/scene_delta.schema.json" }
+
+[[rule]]
+include = ["**/*.epistemic_state.toml"]
+schema = { path = "docs/schema/narrative_state/epistemic_state.schema.json" }
