@@ -1,0 +1,10 @@
+id = "sarabeth"
+name = "Sarabeth"
+aliases = [
+    "The Black Cat",
+]
+birth_year = 1800
+
+[components]
+physical = "sarabeth.character_physical.toml"
+psychology = "sarabeth.character_psychology.toml"

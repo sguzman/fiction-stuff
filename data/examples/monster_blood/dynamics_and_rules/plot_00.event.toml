@@ -1,0 +1,9 @@
+id = "evt_arrival"
+name = "Evan arrives in Atlanta"
+type = "plot_point"
+timestamp = 1
+description = "Evan Ross is dropped off by his parents to stay with his deaf, eccentric Aunt Kathryn while they house-hunt in Atlanta. He brings his cocker spaniel, Trigger."
+participants = [
+    "evan_ross",
+    "aunt_kathryn",
+]

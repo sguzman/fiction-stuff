@@ -1,0 +1,13 @@
+id = "andy"
+traits = [
+    "Outgoing",
+    "Adventurous",
+    "Loyal",
+]
+motivations = [
+    "Have fun",
+    "Solve mysteries with Evan",
+]
+fears = [
+    "Being swallowed by Monster Blood",
+]

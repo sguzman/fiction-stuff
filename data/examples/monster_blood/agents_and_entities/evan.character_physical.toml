@@ -1,0 +1,8 @@
+id = "evan_ross"
+species = "Human"
+gender = "Male"
+description = "A twelve-year-old boy, often feels out of place, slightly small for his age."
+health = 100
+inventory = [
+    "Monster Blood can",
+]

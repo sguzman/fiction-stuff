@@ -1,0 +1,6 @@
+id = "andy"
+species = "Human"
+gender = "Female"
+description = "Tough girl from the neighborhood, often wears jeans and t-shirts, athletic."
+health = 100
+inventory = []

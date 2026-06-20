@@ -1,0 +1,12 @@
+id = "evt_climax"
+name = "Confronting Sarabeth"
+type = "climax"
+timestamp = 4
+description = "The black cat reveals itself to be Sarabeth, an evil witch who cursed the Monster Blood. In the ensuing struggle, the giant Monster Blood consumes Sarabeth, shrinking back down as her magic is destroyed."
+participants = [
+    "evan_ross",
+    "andy",
+    "aunt_kathryn",
+    "sarabeth",
+    "monster_blood",
+]

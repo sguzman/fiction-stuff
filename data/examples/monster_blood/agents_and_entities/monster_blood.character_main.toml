@@ -1,0 +1,9 @@
+id = "monster_blood"
+name = "Monster Blood"
+aliases = [
+    "The Green Slime",
+]
+birth_year = 0
+
+[components]
+physical = "monster_blood.character_physical.toml"

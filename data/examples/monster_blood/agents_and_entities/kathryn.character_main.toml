@@ -1,0 +1,8 @@
+id = "aunt_kathryn"
+name = "Aunt Kathryn"
+aliases = []
+birth_year = 1920
+
+[components]
+physical = "kathryn.character_physical.toml"
+psychology = "kathryn.character_psychology.toml"

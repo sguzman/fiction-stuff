@@ -1,0 +1,10 @@
+id = "evt_growing"
+name = "The Slime Grows"
+type = "escalation"
+timestamp = 3
+description = "The Monster Blood starts growing uncontrollably after being exposed to air and dog saliva. It consumes everything in its path, including the twin bullies."
+participants = [
+    "evan_ross",
+    "andy",
+    "monster_blood",
+]

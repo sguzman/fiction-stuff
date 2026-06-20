@@ -1,0 +1,10 @@
+id = "andy"
+name = "Andrea 'Andy'"
+aliases = [
+    "Andy",
+]
+birth_year = 1980
+
+[components]
+physical = "andy.character_physical.toml"
+psychology = "andy.character_psychology.toml"

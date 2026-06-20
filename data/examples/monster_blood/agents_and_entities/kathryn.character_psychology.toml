@@ -1,0 +1,13 @@
+id = "aunt_kathryn"
+traits = [
+    "Strict",
+    "Mysterious",
+    "Misunderstood",
+]
+motivations = [
+    "Take care of Evan",
+    "Protect her household",
+]
+fears = [
+    "Sarabeth's magic",
+]

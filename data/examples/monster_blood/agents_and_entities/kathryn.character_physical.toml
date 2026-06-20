@@ -1,0 +1,6 @@
+id = "aunt_kathryn"
+species = "Human"
+gender = "Female"
+description = "Tall, imposing older woman. Completely deaf. Often wears strange clothing. Uses sign language."
+health = 80
+inventory = []

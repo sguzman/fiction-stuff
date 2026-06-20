@@ -1,0 +1,15 @@
+id = "sarabeth"
+traits = [
+    "Malevolent",
+    "Manipulative",
+    "Cunning",
+]
+motivations = [
+    "Control Aunt Kathryn",
+    "Cause chaos",
+    "Destroy Evan",
+]
+fears = [
+    "Being outsmarted",
+    "Losing her magical form",
+]

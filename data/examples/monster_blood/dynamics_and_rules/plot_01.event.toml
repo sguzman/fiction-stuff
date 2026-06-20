@@ -1,0 +1,9 @@
+id = "evt_toy_store"
+name = "Buying Monster Blood"
+type = "plot_point"
+timestamp = 2
+description = "Evan meets Andy and they explore a creepy old toy store. Evan buys a dusty old can of 'Monster Blood'."
+participants = [
+    "evan_ross",
+    "andy",
+]

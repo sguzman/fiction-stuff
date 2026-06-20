@@ -1,0 +1,8 @@
+id = "evan_ross"
+name = "Evan Ross"
+aliases = []
+birth_year = 1980
+
+[components]
+physical = "evan.character_physical.toml"
+psychology = "evan.character_psychology.toml"
