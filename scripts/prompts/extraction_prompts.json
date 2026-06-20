@@ -1,0 +1,5 @@
+{
+  "extract_characters": "You are an expert literary ontologist. Given the following story text, extract the main characters. For each character, produce a JSON object that matches the provided JSON schemas for `character_main`, `character_physical`, and `character_psychology`. Output ONLY a list of JSON objects representing these extracted characters. The characters should have fields mapped directly to the schemas provided.",
+  "extract_locations": "Given the following story text, extract the key locations and settings. Produce JSON objects matching the `location` and `setting` schemas. Output ONLY a list of JSON objects.",
+  "extract_events": "Given the following story text, extract the major plot points and chronological events. Produce JSON objects matching the `event` schema. Output ONLY a list of JSON objects."
+}
