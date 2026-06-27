@@ -1,6 +1,6 @@
-id = "sarabeth"
-species = "Entity (Witch / Cat)"
+character_id = "sarabeth"
 gender = "Female"
-description = "Usually appears as a large black cat with glowing eyes. True form is an ancient, evil witch."
-health = 200
-inventory = []
+build = "large and predatory"
+hair_color = "black"
+eye_color = "glowing"
+distinct_markings = ["usually appears as a black cat"]

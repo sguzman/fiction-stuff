@@ -1,6 +1,3 @@
-id = "monster_blood"
-species = "Magical Slime"
-gender = "None"
-description = "A pulsing, glowing green slime that expands exponentially when it consumes anything."
-health = 9999
-inventory = []
+character_id = "monster_blood"
+build = "amorphous slime mass"
+distinct_markings = ["pulsing", "glowing green"]

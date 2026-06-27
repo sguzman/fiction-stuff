@@ -1,4 +1,3 @@
 id = "loc_kathryn_house"
 name = "Aunt Kathryn's House"
-type = "Residence"
-description = "A dark, dusty, and eerie house in Atlanta. It feels unwelcoming and holds many secrets."
+type = "landmark"

@@ -1,13 +1,13 @@
-id = "aunt_kathryn"
-traits = [
-    "Strict",
-    "Mysterious",
-    "Misunderstood",
-]
-motivations = [
-    "Take care of Evan",
-    "Protect her household",
-]
-fears = [
-    "Sarabeth's magic",
-]
+character_id = "aunt_kathryn"
+
+[big_five]
+neuroticism = 45
+agreeableness = 55
+conscientiousness = 80
+openness = 35
+
+[facets]
+authoritarianism = 75
+compassion = 65
+order = 70
+emotional_expressiveness = 25

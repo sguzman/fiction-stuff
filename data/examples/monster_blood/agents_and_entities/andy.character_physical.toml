@@ -1,6 +1,4 @@
-id = "andy"
-species = "Human"
+character_id = "andy"
 gender = "Female"
-description = "Tough girl from the neighborhood, often wears jeans and t-shirts, athletic."
-health = 100
-inventory = []
+build = "athletic"
+distinct_markings = ["often wears jeans and t-shirts"]

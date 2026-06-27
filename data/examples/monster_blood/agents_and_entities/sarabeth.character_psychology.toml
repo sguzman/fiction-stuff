@@ -1,15 +1,15 @@
-id = "sarabeth"
-traits = [
-    "Malevolent",
-    "Manipulative",
-    "Cunning",
-]
-motivations = [
-    "Control Aunt Kathryn",
-    "Cause chaos",
-    "Destroy Evan",
-]
-fears = [
-    "Being outsmarted",
-    "Losing her magical form",
-]
+character_id = "sarabeth"
+
+[big_five]
+neuroticism = 60
+extraversion = 70
+agreeableness = 5
+conscientiousness = 75
+openness = 65
+
+[facets]
+compassion = 0
+charisma = 80
+intellect = 75
+authoritarianism = 85
+irritability = 70

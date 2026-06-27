@@ -1,10 +1,11 @@
 id = "evt_growing"
 name = "The Slime Grows"
-type = "escalation"
-timestamp = 3
+date = "Narrative Day 3"
 description = "The Monster Blood starts growing uncontrollably after being exposed to air and dog saliva. It consumes everything in its path, including the twin bullies."
-participants = [
+impacted_entities = [
     "evan_ross",
     "andy",
     "monster_blood",
 ]
+is_historical = false
+consequences = ["Monster Blood becomes an immediate physical threat.", "Evan and Andy are forced to contain the slime."]

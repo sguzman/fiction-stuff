@@ -1,6 +1,5 @@
-id = "aunt_kathryn"
-species = "Human"
+character_id = "aunt_kathryn"
 gender = "Female"
-description = "Tall, imposing older woman. Completely deaf. Often wears strange clothing. Uses sign language."
-health = 80
-inventory = []
+build = "tall and imposing"
+chronic_conditions = ["deafness"]
+distinct_markings = ["often wears strange clothing"]

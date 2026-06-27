@@ -1,9 +1,10 @@
 id = "evt_arrival"
 name = "Evan arrives in Atlanta"
-type = "plot_point"
-timestamp = 1
+date = "Narrative Day 1"
 description = "Evan Ross is dropped off by his parents to stay with his deaf, eccentric Aunt Kathryn while they house-hunt in Atlanta. He brings his cocker spaniel, Trigger."
-participants = [
+impacted_entities = [
     "evan_ross",
     "aunt_kathryn",
 ]
+is_historical = false
+consequences = ["Evan is isolated in Aunt Kathryn's house while his parents are away."]

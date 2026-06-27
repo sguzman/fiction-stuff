@@ -1,12 +1,13 @@
 id = "evt_climax"
 name = "Confronting Sarabeth"
-type = "climax"
-timestamp = 4
+date = "Narrative Day 4"
 description = "The black cat reveals itself to be Sarabeth, an evil witch who cursed the Monster Blood. In the ensuing struggle, the giant Monster Blood consumes Sarabeth, shrinking back down as her magic is destroyed."
-participants = [
+impacted_entities = [
     "evan_ross",
     "andy",
     "aunt_kathryn",
     "sarabeth",
     "monster_blood",
 ]
+is_historical = false
+consequences = ["Sarabeth is eliminated.", "Monster Blood returns to a manageable size after its magical source is destroyed."]
