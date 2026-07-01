@@ -2,12 +2,14 @@ character_id = "evan_ross"
 
 [big_five]
 neuroticism = 75
-openness = 80
-agreeableness = 65
-conscientiousness = 55
+extraversion = 45
+openness = 65
+agreeableness = 60
+conscientiousness = 40
 
 [facets]
 anxiety = 80
-intellect = 70
-curiosity = 80
-self_control = 55
+intellect = 60
+self_control = 40
+irritability = 65
+adaptability = 35

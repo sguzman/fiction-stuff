@@ -1,15 +1,16 @@
 character_id = "sarabeth"
 
 [big_five]
-neuroticism = 60
-extraversion = 70
+neuroticism = 35
+extraversion = 60
 agreeableness = 5
-conscientiousness = 75
-openness = 65
+conscientiousness = 85
+openness = 60
 
 [facets]
 compassion = 0
-charisma = 80
-intellect = 75
+charisma = 70
+intellect = 80
 authoritarianism = 85
-irritability = 70
+irritability = 40
+trust = 0

@@ -1,13 +1,15 @@
 character_id = "aunt_kathryn"
 
 [big_five]
-neuroticism = 45
-agreeableness = 55
+neuroticism = 60
+extraversion = 60
+agreeableness = 45
 conscientiousness = 80
-openness = 35
+openness = 55
 
 [facets]
 authoritarianism = 75
-compassion = 65
+compassion = 55
 order = 70
-emotional_expressiveness = 25
+emotional_expressiveness = 75
+trust = 30

@@ -3,11 +3,12 @@ character_id = "andy"
 [big_five]
 extraversion = 85
 openness = 70
-agreeableness = 75
-conscientiousness = 60
+agreeableness = 60
+conscientiousness = 70
 
 [facets]
 sociability = 85
 sensation_seeking = 75
-compassion = 70
-trust = 65
+compassion = 60
+attention_seeking = 70
+adaptability = 80
